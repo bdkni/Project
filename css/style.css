@@ -96,7 +96,7 @@ body {
     left: calc(50% - 300px);
     width: 600px;
     padding: 60px 40px;
-    background-color: #FFFFFB;
+    background-color: #a5a53c;
     border-radius: 20px;
     box-shadow: 1px 0px 30px 12px rgba(34, 60, 80, 0.2);
 }
