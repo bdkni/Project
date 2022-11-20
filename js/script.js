@@ -1,4 +1,4 @@
-consolw.log('Hello');
+consolw.log('Hello, world!');
 
 window.onload = function() {
     const fullNameInput = document.getElementById('full-name');
