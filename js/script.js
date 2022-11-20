@@ -126,3 +126,5 @@ window.onload = function() {
 }
 
 console.log("Hi!");
+console.log("Hello, people!");
+
