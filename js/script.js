@@ -124,3 +124,5 @@ window.onload = function() {
         document.getElementById('form').reset();
     }
 }
+
+console.log("Hello, people!");
