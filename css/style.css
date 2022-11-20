@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Nunito-Bold, sans-serif;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Nunito-Bold, sans-serif;
+    font-weight: 700;
+    background-color: #FFFFFB;
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 194px 0 191px 0;
+    background: linear-gradient(to left, #F8F8FA 51.5%, transparent 50%);
+}
+.wrapper-logo {
+    position: absolute;
+    top: 27px;
+    left: calc(50% - 154px);
+}
+.wrapper-form__title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+.wrapper-form__description {
+    width: 496px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 42px;
+}
+.wrapper-form__input-text {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+.wrapper-form__input input {
+    width: 452px;
+    font-size: 20px;
+    font-family: Nunito-Bold, sans-serif;
+    font-weight: bold;
+    color: #323232;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    margin-bottom: 20px;
+    outline: none;
+}
+.wrapper-form__input input:last-child {
+    margin-bottom: 30px;
+}
+.wrapper-form__agreement {
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 40px;
+}
+.wrapper-form__agreement label span {
+    margin-left: 10px;
+}
+.wrapper-form__button {
+    display: block;
+    box-sizing: border-box;
+    width: 210px;
+    height: 70px;
+    padding: 21px 0 25px 0;
+    font-size: 20px;
+    font-family: Nunito-Bold, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #DD3142;
+    border: none;
+    border-radius: 40px;
+    margin: 0 auto 44px auto;
+}
+.wrapper-form__question {
+    text-align: center;
+}
+.wrapper-form__question a {
+    font-size: 16px;
+    color: #636363;
+    text-decoration: none;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: calc(50% - 140px);
+    left: calc(50% - 300px);
+    width: 600px;
+    padding: 60px 40px;
+    background-color: #FFFFFB;
+    border-radius: 20px;
+    box-shadow: 1px 0px 30px 12px rgba(34, 60, 80, 0.2);
+}
+.modal-text {
+    display: block;
+    margin: 0 auto 40px auto;
+    width: 450px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.modal-button {
+    display: block;
+    box-sizing: border-box;
+    width: 210px;
+    height: 70px;
+    padding: 21px 0 25px 0;
+    font-size: 20px;
+    font-family: Nunito-Bold, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #DD3142;
+    border: none;
+    border-radius: 40px;
+    margin: 0 auto;
+}

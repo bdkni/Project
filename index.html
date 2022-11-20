@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- Логотип -->
+    <div class="wrapper-logo">
+        <img src="img/logo.svg" alt="Logo">
+    </div>
+
+    <!-- Поле формы -->
+    <div class="wrapper-form">
+        <!-- Заголовок -->
+        <div class="wrapper-form__title">Get your free account</div>
+        <!-- Описание -->
+        <div class="wrapper-form__description">
+            Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+        </div>
+
+        <!-- Сама форма-->
+        <div class="wrapper-form__form">
+
+            <form id="form">
+                <label class="wrapper-form__input">
+                    <div class="wrapper-form__input-text">Full Name</div>
+                    <input id="full-name" type="text" class="input-text" data-value="Full Name">
+                </label>
+
+                <label class="wrapper-form__input">
+                    <div class="wrapper-form__input-text">Your username</div>
+                    <input id="username" type="text" class="input-text" data-value="Your username">
+                </label>
+
+                <label class="wrapper-form__input">
+                    <div class="wrapper-form__input-text">E-mail</div>
+                    <input id="email" type="text" class="input-text" data-value="E-mail">
+                </label>
+
+                <label class="wrapper-form__input">
+                    <div class="wrapper-form__input-text">Password</div>
+                    <input id="password" type="text" class="input-text" data-value="Password">
+                </label>
+
+                <label class="wrapper-form__input">
+                    <div class="wrapper-form__input-text">Repeat Password</div>
+                    <input id="repeat-password" type="text" class="input-text" data-value="Repeat Password">
+                </label>
+
+                <div class="wrapper-form__agreement">
+                    <label>
+                        <input id="checkbox" type="checkbox" name="agree">
+                        <span class="wrapper-form__agreement-text">
+                        Agree to our Terms of Service and Privacy Statement
+                    </span>
+                    </label>
+                </div>
+
+                <!-- Кнопка -->
+                <button id="button" type="button" class="wrapper-form__button">Sign Up</button>
+            </form>
+
+            <!-- Переход на страницу логина -->
+            <div class="wrapper-form__question">
+                <a href="#" id="replace">Already have an account?</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="wrapper-image">
+        <img src="img/image.svg" alt="">
+    </div>
+
+</div>
+
+<div class="modal">
+    <div class="modal-text">
+        На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию.
+    </div>
+    <button id="modal-button" class="modal-button">OK</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
