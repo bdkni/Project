@@ -3,7 +3,7 @@
     src: url("../fonts/Nunito-Bold.ttf");
 }
 * {
-    padding: 0;
+    padding: 10px;
     margin: 0;
 }
 body {
